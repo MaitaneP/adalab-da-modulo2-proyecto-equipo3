@@ -34,3 +34,6 @@ SPRINT 3:
 
 24/04/2023
 - Analizamos cómo separar los valores de la columnas q7, para poder hacer el conteo por usuario de cada herramienta.
+
+25/04/2023
+- Conseguimos limpiar la columna de herramientas y por lo tanto, separarlas, para poder ocntabilizarlas individualmente.
