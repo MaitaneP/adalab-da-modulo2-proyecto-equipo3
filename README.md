@@ -23,17 +23,12 @@ SPRINT 2:
 - Crear las primeras funciones de limpieza profunda de columnas
 
 SPRINT 3:
+- Limpieza de columnas + automatización de procesos
+    - Automatizamos el proceso de cambio de nombres de las columnas definiendo la función 'nombres_columnas'.
+    - Continuamos automatizando y limpiando datos. Reemplazamos los valores por si y no en función de las herramientas que utiliza cada usuario.
+    - Analizamos cómo separar los valores de la columnas q7, para poder hacer el conteo por usuario de cada herramienta.
+        - Separamos las columnas, para poder contabilizarlas individualmente.
 
-19/04/2023
-
-- Automatizamos el proceso de cambio de nombres de las columnas definiendo la función 'nombres_columnas'.
-
-20/04/2023
-
-- Continuamos automatizando y limpiando datos. Reemplazamos los valores por si y no en función de las herramientas que utiliza cada usuario.
-
-24/04/2023
-- Analizamos cómo separar los valores de la columnas q7, para poder hacer el conteo por usuario de cada herramienta.
-
-25/04/2023
-- Conseguimos limpiar la columna de herramientas y por lo tanto, separarlas, para poder ocntabilizarlas individualmente.
+- Nos damos cuenta de que nuestro acercamiento de cara a la obtención de gráficas era demasiado laborioso
+    - Realizamos supervisión técnica
+    - Trazamos nuevo plan de limpieza y posterior análisis
