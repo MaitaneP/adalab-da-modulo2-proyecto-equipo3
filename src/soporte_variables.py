@@ -37,8 +37,7 @@ columnas_sobrantes = ['q10_part_1', 'q10_part_2', 'q10_part_3', 'q10_part_4', 'q
                         'q10_part_12', 'q10_part_13', 'q10_part_14', 'q10_part_15', 'q10_part_16', 'q10_other', 'q39_part_1', 'q39_part_2', 'q39_part_3', 'q39_part_4', 'q39_part_5', 
                         'q39_part_6', 'q39_part_7', 'q39_part_8', 'q39_part_9', 'q39_other']
 
-columnas_unidas = ['q7', 'q9', ]
-
+columnas_unidas = ['q7', 'q9', 'q10', 'q14', 'q20', 'q24', 'q39', 'q41']
 
 
 # LISTAS PAISES
@@ -59,3 +58,12 @@ lista_oceania = ['Australia']
 
 lista_otros = ['I do not wish to disclose my location']
 
+
+# Diccionario Limpieza Columnas
+dict_changes = {'Jupyter (JupyterLab, Jupyter Notebooks, etc)':'Jupyter (JupyterLab-Jupyter Notebooks-etc)',
+                'Build and/or run the data infrastructure that my business uses for storing, analyzing, and operationalizing data':'Build and/or run the data infrastructure that my business uses for storing analyzing and operationalizing data',
+                "Basic statistical software (Microsoft Excel', ' Google Sheets', ' etc.)":'Basic statistical software (Microsoft Excel-Google Sheets-etc.)',
+                "Local development environments (RStudio', ' JupyterLab', ' etc.)":'Local development environments (RStudio-JupyterLab-etc)',
+                "Business intelligence software (Salesforce',' Tableau',' Spotfire',' etc.)":'Business intelligence software (Salesforce-Tableau-Spotfire.etc.)',
+                "Cloud-based data software & APIs (AWS', ' GCP', ' Azure', ' etc.)": 'Cloud-based data software & APIs (AWS-GCP-Azure-etc.)',
+                "Advanced statistical software (SPSS', ' SAS', ' etc.)":'Advanced statistical software (SPSS-SAS-etc.)'}
