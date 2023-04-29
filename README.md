@@ -1,7 +1,7 @@
 # promo-d-da-modulo2-proyecto-equipo3-Maitane-Elisa-Paula-Paloma
 Este repositorio incluye el proyecto del equipo 3 del Módulo 2 de la promo D del bootcamp de Data Analytics de Adalab. El nombre del equipo es RKG (Restart Kernel Girls) y las integrantes son Elisa Jiménez, Paula Velasco, Paloma Mesón y Maitane Portilla.
 
-OBJETIVO:
+***OBJETIVO:***
 Adalab nos ha contratado para analizar la información de la encuesta 2021 Kaggle DS & ML Survey. El objetivo es analizar las respuestas de la encuesta para determinar si el bootcamp de Data Analytics que ofrece se ajusta a las necesidades del mercado para un Data Analyst. Para ello analizaremos qué herramientas/competencias son las que se incluyen en el plan de estudios del bootcamp y cuales son las que según la encuesta son más necesarias para un Data Analyst.
 
 A continuación un pequeño resumen de las competencias que se desarrrollan en el bootcamp de Adalab
@@ -24,7 +24,7 @@ Preguntas de investigación:
     - Análisis según los años de experiencia
     - Análisis según sector
 
-PLANIFICACIÓN:
+***PLANIFICACIÓN:***
 A continuación un pequeño resumen de cómo se ha organizado el trabajo en 3 sprints:
 
 SPRINT 1:
@@ -54,7 +54,7 @@ SPRINT 3:
     - Realizamos supervisión técnica
     - Trazamos nuevo plan de limpieza y posterior análisis
 
-ORGANIZACIÓN DE LA INFORMACIÓN:
+***ORGANIZACIÓN DE LA INFORMACIÓN:***
 La documentación se ha organizado en las siguientes carpetas:
 - [**datos:**]() Recoge los .csv, .txt, .xml con las respuestas a la encuesta, así como un .pdf con el detalle de las preguntas realizadas y todas las posibles respuestas de cada una.
 - [**trabajo:**]() Carpeta de trabajo.

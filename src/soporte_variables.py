@@ -1,3 +1,5 @@
+# LISTAS COLUMNAS
+
 columnas_ordenadas = ['time', 'age', 'gender', 'q3', 'q4', 'q5', 'q6', 'q7', 'q8', 'q9', 'q10_part_1', 'q10_part_2', 'q10_part_3', 'q10_part_4', 
                       'q10_part_5', 'q10_part_6', 'q10_part_7', 'q10_part_8', 'q10_part_9', 'q10_part_10', 'q10_part_11', 'q10_part_12', 'q10_part_13',
                       'q10_part_14', 'q10_part_15', 'q10_part_16', 'q10_other', 'q11', 'q12', 'q13','q14', 'q15', 'q16', 'q17', 'q18_part_1', 'q18_part_2', 
@@ -25,3 +27,35 @@ columnas_ordenadas = ['time', 'age', 'gender', 'q3', 'q4', 'q5', 'q6', 'q7', 'q8
                       'q36_b_part_5', 'q36_b_part_6', 'q36_b_part_7', 'q36_b_other', 'q37_b_part_1', 'q37_b_part_2', 'q37_b_part_3', 'q37_b_part_4', 'q37_b_part_5', 
                       'q37_b_part_6', 'q37_b_part_7', 'q37_b_other', 'q38_b_part_1', 'q38_b_part_2', 'q38_b_part_3', 'q38_b_part_4', 'q38_b_part_5', 'q38_b_part_6', 
                       'q38_b_part_7', 'q38_b_part_8', 'q38_b_part_9', 'q38_b_part_10', 'q38_b_part_11', 'q38_b_other' ]
+
+columnas_seleccionadas = ['age','gender', 'q3', 'q4', 'q6', 'q7', 'q8', 'q9', 'q10_part_1', 'q10_part_2', 'q10_part_3', 'q10_part_4', 'q10_part_5', 'q10_part_6', 
+                          'q10_part_7', 'q10_part_8', 'q10_part_9', 'q10_part_10', 'q10_part_11', 'q10_part_12', 'q10_part_13', 'q10_part_14', 'q10_part_15', 'q10_part_16', 
+                          'q10_other', 'q14', 'q20', 'q21', 'q22', 'q24', 'q34', 'q35', 'q39_part_1', 'q39_part_2', 'q39_part_3', 'q39_part_4', 'q39_part_5', 'q39_part_6', 'q39_part_7', 'q39_part_8', 
+                          'q39_part_9', 'q39_other', 'q41']
+
+columnas_sobrantes = ['q10_part_1', 'q10_part_2', 'q10_part_3', 'q10_part_4', 'q10_part_5', 'q10_part_6', 'q10_part_7', 'q10_part_8', 'q10_part_9', 'q10_part_10', 'q10_part_11',
+                        'q10_part_12', 'q10_part_13', 'q10_part_14', 'q10_part_15', 'q10_part_16', 'q10_other', 'q39_part_1', 'q39_part_2', 'q39_part_3', 'q39_part_4', 'q39_part_5', 
+                        'q39_part_6', 'q39_part_7', 'q39_part_8', 'q39_part_9', 'q39_other']
+
+columnas_unidas = ['q7', 'q9', ]
+
+
+
+# LISTAS PAISES
+
+lista_europa = ['Belgium', 'Ukraine', 'Italy', 'Spain', 'United Kingdom of Great Britain and Northern Ireland', 'Germany', 'France', 'Greece', 'Portugal', 'Netherlands', 
+                'Poland', 'Switzerland', 'Romania', 'Czech Republic', 'Sweden', 'Ireland', 'Denmark', 'Belarus', 'Austria', 'Norway']
+
+lista_asia= ['China', 'India', 'Israel', 'Pakistan', 'Indonesia', 'Sri Lanka', 'Iran', 'Islamic Republic of...', 'South Korea', 'Russia', 'Taiwan', 'Philippines', 'Singapore', 
+             'Japan', 'Saudi Arabia', 'Thailand', 'Hong Kong (S.A.R.)', 'Bangladesh', 'Malaysia', 'Viet Nam', 'United Arab Emirates', 'Iraq',  'Nepal', 'Kazakhstan']
+
+lista_america_norte = ['United States of America', 'Canada']
+
+lista_america_sur = [ 'Colombia', 'Brazil', 'Peru', 'Mexico', 'Argentina', 'Ecuador', 'Chile']
+
+lista_africa = ['Egypt', 'South Africa', 'Nigeria', 'Tunisia', 'Turkey', 'Kenya', 'Ghana', 'Morocco', 'Ethiopia', 'Uganda']
+
+lista_oceania = ['Australia']
+
+lista_otros = ['I do not wish to disclose my location']
+
