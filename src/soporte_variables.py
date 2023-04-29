@@ -62,7 +62,7 @@ lista_otros = ['I do not wish to disclose my location']
 
 
 # Diccionario Limpieza Columnas
-dict_changes = {'Jupyter (JupyterLab, Jupyter Notebooks, etc)' : 'Jupyter (JupyterLab-Jupyter Notebooks-etc)',
+dict_changes = {'Jupyter (JupyterLab, Jupyter Notebooks, etc) ' : 'Jupyter (JupyterLab-Jupyter Notebooks-etc)',
                 'Build and/or run the data infrastructure that my business uses for storing, analyzing, and operationalizing data' : 'Build and/or run the data infrastructure that my business uses for storing analyzing and operationalizing data',
                 "Basic statistical software (Microsoft Excel', ' Google Sheets', ' etc.)" : 'Basic statistical software (Microsoft Excel-Google Sheets-etc.)',
                 "Local development environments (RStudio', ' JupyterLab', ' etc.)" : 'Local development environments (RStudio-JupyterLab-etc)',
