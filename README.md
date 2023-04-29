@@ -56,14 +56,17 @@ SPRINT 3:
 
 ***ORGANIZACIÓN DE LA INFORMACIÓN:***
 La documentación se ha organizado en las siguientes carpetas:
-- [**datos:**]() Recoge los .csv, .txt, .xml con las respuestas a la encuesta, así como un .pdf con el detalle de las preguntas realizadas y todas las posibles respuestas de cada una.
-- [**trabajo:**]() Carpeta de trabajo.
+- [**datos:**](https://github.com/Adalab/promo-d-da-modulo2-proyecto-equipo3-Maitane-Elisa-Paula-Paloma/tree/main/datos) Recoge los .csv, .txt, .xml con las respuestas a la encuesta, así como un .pdf con el detalle de las preguntas realizadas y todas las posibles respuestas de cada una.
 - **notebooks:** Se incluyen los Jupyter Notebooks definitivos que se indican a continuuación:
-    * [***.ipynb***](): contiene las tareas de .
-- **resultados:** Se incluyen los siguientes archivos con los resultados de las tareas desarrolladas en los Jupyter Notebooks:
-    * [***df_completo_sin_tratar.csv***](): archivo .csv con el dataframe completo con todas las preguntas pero sin realizar sobre él ninguna tarea de limpieza.
-    * [***df_completo_ordenado.csv***](): archivo .csv con el dataframe completo tan solo con las columnas homogeneizadas y ordenadas.
-    * [***.ipynb***](): contiene
+    * [***1_union_datos.ipynb***](https://github.com/Adalab/promo-d-da-modulo2-proyecto-equipo3-Maitane-Elisa-Paula-Paloma/blob/main/notebooks/union_datos.ipynb): contiene las primeras tareas de carga de datos, una primera limpieza para obtener cada dataframe con la estructura deseada, su exploración numérica y la unión de todos los datos en un único dataframe.
+    * [***2_seleccion_datos_.ipynb***](https://github.com/Adalab/promo-d-da-modulo2-proyecto-equipo3-Maitane-Elisa-Paula-Paloma/blob/main/notebooks/2_seleccion_datos.ipynb): contiene el renombrado y reordenado de las columnas, las primeras tareas de selección de los datos para el dataframe de trabajo y una exploración gráfica de dicho dataframe, así como un apartado de conclusiones.
+    * [***3_tratamiento_datos.ipynb***](https://github.com/Adalab/promo-d-da-modulo2-proyecto-equipo3-Maitane-Elisa-Paula-Paloma/blob/main/notebooks/3_tratamiento_datos.ipynb): contiene el grueso de las tareas de limpieza del dataframen con la información seleccionada como relevante (preguntas seleccionadas para el perfil de Data Analyst).
+- [**resultados:**](https://github.com/Adalab/promo-d-da-modulo2-proyecto-equipo3-Maitane-Elisa-Paula-Paloma/tree/main/resultados) Se incluyen los siguientes archivos con los resultados de las tareas desarrolladas en los Jupyter Notebooks:
+    * ***df_completo_sin_tratar.csv***: archivo .csv con el dataframe completo con todas las preguntas pero sin realizar sobre él ninguna tarea de limpieza.
+    * ***df_completo_ordenado.csv***: archivo .csv con el dataframe completo tan solo con las columnas homogeneizadas y ordenadas.
+    * [***df_da_relevante.csv***](https://github.com/Adalab/promo-d-da-modulo2-proyecto-equipo3-Maitane-Elisa-Paula-Paloma/blob/main/resultados/df_da_relevante.csv): archivo .csv con el dataframe de Data Analyst con las preguntas relevantes sin tratar/limpiar.
+    * [***df_da_relevante_limpio.csv***](https://github.com/Adalab/promo-d-da-modulo2-proyecto-equipo3-Maitane-Elisa-Paula-Paloma/blob/main/resultados/df_da_relevante_limpio.csv): archivo .csv con el dataframe de Data Analyst con las preguntas relevantes limpio.
 - **src:** Incluye los siguientes archivos:
-    * [***soporte_funciones.py***](): contiene el .py usado para almacenar funciones.
-    * [***soporte_variables.py***](): contiene el .py usado para almacenar variables.
+    * [***soporte_funciones.py***](https://github.com/Adalab/promo-d-da-modulo2-proyecto-equipo3-Maitane-Elisa-Paula-Paloma/blob/main/src/soporte_funciones.py): contiene el .py usado para almacenar funciones.
+    * [***soporte_variables.py***](https://github.com/Adalab/promo-d-da-modulo2-proyecto-equipo3-Maitane-Elisa-Paula-Paloma/blob/main/src/soporte_variables.py): contiene el .py usado para almacenar variables.
+- [**trabajo:**](https://github.com/Adalab/promo-d-da-modulo2-proyecto-equipo3-Maitane-Elisa-Paula-Paloma/tree/main/trabajo) Carpeta de trabajo.
