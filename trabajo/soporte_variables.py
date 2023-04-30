@@ -1,4 +1,5 @@
 # LISTAS COLUMNAS
+
 columnas_ordenadas = ['time', 'age', 'gender', 'q3', 'q4', 'q5', 'q6', 'q7', 'q8', 'q9', 'q10_part_1', 'q10_part_2', 'q10_part_3', 'q10_part_4', 
                       'q10_part_5', 'q10_part_6', 'q10_part_7', 'q10_part_8', 'q10_part_9', 'q10_part_10', 'q10_part_11', 'q10_part_12', 'q10_part_13',
                       'q10_part_14', 'q10_part_15', 'q10_part_16', 'q10_other', 'q11', 'q12', 'q13','q14', 'q15', 'q16', 'q17', 'q18_part_1', 'q18_part_2', 
@@ -38,19 +39,6 @@ columnas_sobrantes = ['q10_part_1', 'q10_part_2', 'q10_part_3', 'q10_part_4', 'q
 
 columnas_unidas = ['q7', 'q9', 'q10', 'q14', 'q20', 'q24', 'q39', 'q41']
 
-lista_hues = ['age', 'gender', 'continente', 'q4', 'q6', 'q21', 'q22']
-
-orden_continentes = ['Europa', 'América del Norte', 'América del Sur', 'Asia', 'África', 'Oceanía', 'NS/NC']
-
-orden_experiencia = ['I have never written code', '< 1 years', '1-3 years', '3-5 years', '5-10 years', '10-20 years', '20+ years']
-
-orden_edades = ['18-21', '22-24', '25-29', '30-34', '35-39', '40-44', '45-49', '50-54', '55-59', '60-69', '70+']
-
-orden_genero = ['Woman', 'Man', 'Nonbinary', 'Prefer not to say', 'Prefer to self-describe']
-
-orden_formacion = ['Professional doctorate', 'Doctoral degree', 'Master’s degree', 'Bachelor’s degree', 'Some college/university study without earning a bachelor’s degree', 
-                   'No formal education past high school', 'I prefer not to answer']
-
 
 
 
@@ -71,4 +59,42 @@ continentes = {'Belgium': 'Europa', 'Ukraine': 'Europa', 'Italy': 'Europa', 'Spa
                'Kenya': 'África', 'Ghana': 'África', 'Morocco': 'África', 'Ethiopia': 'África', 'Uganda': 'África', 
                'Australia': 'Oceanía', 'I do not wish to disclose my location': 'NS/NC'}
 
+# LISTAS PAISES
 
+# lista_europa = ['Belgium', 'Ukraine', 'Italy', 'Spain', 'United Kingdom of Great Britain and Northern Ireland', 'Germany', 'France', 'Greece', 'Portugal', 'Netherlands', 
+#                 'Poland', 'Switzerland', 'Romania', 'Czech Republic', 'Sweden', 'Ireland', 'Denmark', 'Belarus', 'Austria', 'Norway']
+
+# lista_asia= ['China', 'India', 'Israel', 'Pakistan', 'Indonesia', 'Sri Lanka', 'Iran', 'Islamic Republic of...', 'South Korea', 'Russia', 'Taiwan', 'Philippines', 'Singapore', 
+#              'Japan', 'Saudi Arabia', 'Thailand', 'Hong Kong (S.A.R.)', 'Bangladesh', 'Malaysia', 'Viet Nam', 'United Arab Emirates', 'Iraq',  'Nepal', 'Kazakhstan']
+
+# lista_america_norte = ['United States of America', 'Canada']
+
+# lista_america_sur = [ 'Colombia', 'Brazil', 'Peru', 'Mexico', 'Argentina', 'Ecuador', 'Chile']
+
+# lista_africa = ['Egypt', 'South Africa', 'Nigeria', 'Tunisia', 'Turkey', 'Kenya', 'Ghana', 'Morocco', 'Ethiopia', 'Uganda']
+
+# lista_oceania = ['Australia']
+
+# lista_otros = ['I do not wish to disclose my location']
+
+
+
+# Diccionario Limpieza Columnas
+dict_changes = {'Jupyter (JupyterLab, Jupyter Notebooks, etc) ' : 'Jupyter (JupyterLab-Jupyter Notebooks-etc)',
+                'Build and/or run the data infrastructure that my business uses for storing, analyzing, and operationalizing data' : 'Build and/or run the data infrastructure that my business uses for storing analyzing and operationalizing data',
+                "Basic statistical software (Microsoft Excel', ' Google Sheets', ' etc.)" : 'Basic statistical software (Microsoft Excel-Google Sheets-etc.)',
+                "Local development environments (RStudio', ' JupyterLab', ' etc.)" : 'Local development environments (RStudio-JupyterLab-etc)',
+                "Business intelligence software (Salesforce',' Tableau',' Spotfire',' etc.)" : 'Business intelligence software (Salesforce-Tableau-Spotfire.etc.)',
+                "Cloud-based data software & APIs (AWS', ' GCP', ' Azure', ' etc.)" : 'Cloud-based data software & APIs (AWS-GCP-Azure-etc.)',
+                "Advanced statistical software (SPSS', ' SAS', ' etc.)" : 'Advanced statistical software (SPSS-SAS-etc.)'}
+
+
+
+# listas columnas categóricas
+lista_hues = ['age', 'gender', 'continente', 'q4', 'q6', 'q21', 'q22']
+
+orden_continentes = ['Europa', 'América del Norte', 'América del Sur', 'Asia', 'África', 'Oceanía', 'NS/NC']
+
+orden_experiencia = ['I have never written code', '< 1 years', '1-3 years', '3-5 years', '5-10 years', '10-20 years', '20+ years']
+
+orden_edades = ['18-21', '22-24', '25-29', '30-34', '35-39', '40-44', '45-49', '50-54', '55-59', '60-69', '70+']

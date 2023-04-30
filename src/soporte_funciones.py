@@ -33,3 +33,77 @@ def df_explore(dataframe, nombre):
         else:
             print(col, len(dataframe[col].value_counts()))
             print(f"Los valores son: {dataframe[col].unique()}")
+
+
+
+# Limpieza y tratamiento de datos
+def limpiar_q9(row):
+    try:
+        if 'Jupyter (JupyterLab, Jupyter Notebooks, etc)' in row:
+            r = row.replace("Jupyter (JupyterLab, Jupyter Notebooks, etc)", 'Jupyter-JupyterLab-JupyterNotebooks')
+            return r
+        else:
+            return row
+    except:
+        return row
+    
+def limpiar_q24(row):
+    try:
+        if 'Build and/or run the data infrastructure that my business uses for storing, analyzing, and operationalizing data' in row:
+            r = row.replace('Build and/or run the data infrastructure that my business uses for storing, analyzing, and operationalizing data', 'Build and/or run the data infrastructure that my business uses for storing analyzing and operationalizing data')
+            return r
+        else:
+            return row
+    except:
+        return row
+    
+def limpiar_q41a(row):
+    try:
+        if "Basic statistical software (Microsoft Excel, Google Sheets, etc.)" in row:
+            r = row.replace("Basic statistical software (Microsoft Excel, Google Sheets, etc.)", "Basic statistical software (Microsoft Excel-Google Sheets)")
+            return r
+        else:
+            return row
+    except:
+        return row
+    
+def limpiar_q41b(row):
+    try:
+        if "Local development environments (RStudio, JupyterLab, etc.)" in row:
+            r = row.replace("Local development environments (RStudio, JupyterLab, etc.)", "Local development environments (RStudio-JupyterLab)")
+            return r
+        else:
+            return row
+    except:
+        return row
+    
+def limpiar_q41c(row):
+    try:
+        if "Business intelligence software (Salesforce, Tableau, Spotfire, etc.)" in row:
+            r = row.replace("Business intelligence software (Salesforce, Tableau, Spotfire, etc.)", "Business intelligence software (Salesforce-Tableau-Spotfire)")
+            return r
+        else:
+            return row
+    except:
+        return row
+    
+def limpiar_q41d(row):
+    try:
+        if "Advanced statistical software (SPSS, SAS, etc.)" in row:
+            r = row.replace("Advanced statistical software (SPSS, SAS, etc.)", "Advanced statistical software (SPSS-SAS)")
+            return r
+        else:
+            return row
+    except:
+        return row
+
+def limpiar_q41e(row):
+    try:
+        if "Cloud-based data software & APIs (AWS, GCP, Azure, etc.)" in row:
+            r = row.replace("Cloud-based data software & APIs (AWS, GCP, Azure, etc.)", "Cloud-based data software & APIs (AWS-GCP-Azure)")
+            return r
+        else:
+            return row
+    except:
+        return row
+    
