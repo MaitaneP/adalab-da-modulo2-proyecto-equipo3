@@ -36,7 +36,7 @@ columnas_sobrantes = ['q10_part_1', 'q10_part_2', 'q10_part_3', 'q10_part_4', 'q
                         'q10_part_12', 'q10_part_13', 'q10_part_14', 'q10_part_15', 'q10_part_16', 'q10_other', 'q39_part_1', 'q39_part_2', 'q39_part_3', 'q39_part_4', 'q39_part_5', 
                         'q39_part_6', 'q39_part_7', 'q39_part_8', 'q39_part_9', 'q39_other']
 
-columnas_unidas = ['q7', 'q9', 'q10', 'q14', 'q20', 'q24', 'q39', 'q41']
+columnas_unidas = ['q7', 'q9', 'q10', 'q14', 'q20', 'q24', 'q34', 'q39', 'q41']
 
 lista_hues = ['age', 'gender', 'continente', 'q4', 'q6', 'q21', 'q22']
 
