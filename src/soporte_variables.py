@@ -29,7 +29,7 @@ columnas_ordenadas = ['time', 'age', 'gender', 'q3', 'q4', 'q5', 'q6', 'q7', 'q8
 
 columnas_seleccionadas = ['age','gender', 'q3', 'q4', 'q6', 'q7', 'q8', 'q9', 'q10_part_1', 'q10_part_2', 'q10_part_3', 'q10_part_4', 'q10_part_5', 'q10_part_6', 
                           'q10_part_7', 'q10_part_8', 'q10_part_9', 'q10_part_10', 'q10_part_11', 'q10_part_12', 'q10_part_13', 'q10_part_14', 'q10_part_15', 'q10_part_16', 
-                          'q10_other', 'q14', 'q20', 'q21', 'q22', 'q24', 'q34', 'q35', 'q39_part_1', 'q39_part_2', 'q39_part_3', 'q39_part_4', 'q39_part_5', 'q39_part_6', 'q39_part_7', 'q39_part_8', 
+                          'q10_other', 'q14', 'q20', 'q21', 'q22', 'q24', 'q32', 'q34', 'q35', 'q39_part_1', 'q39_part_2', 'q39_part_3', 'q39_part_4', 'q39_part_5', 'q39_part_6', 'q39_part_7', 'q39_part_8', 
                           'q39_part_9', 'q39_other', 'q41']
 
 columnas_sobrantes = ['q10_part_1', 'q10_part_2', 'q10_part_3', 'q10_part_4', 'q10_part_5', 'q10_part_6', 'q10_part_7', 'q10_part_8', 'q10_part_9', 'q10_part_10', 'q10_part_11',
