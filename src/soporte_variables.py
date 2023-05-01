@@ -38,7 +38,11 @@ columnas_sobrantes = ['q10_part_1', 'q10_part_2', 'q10_part_3', 'q10_part_4', 'q
 
 columnas_unidas = ['q7', 'q9', 'q10', 'q14', 'q20', 'q24', 'q32', 'q34', 'q39', 'q41']
 
+lista_herramientas = ['q7', 'q9', 'q10', 'q14', 'q20', 'q24', 'q32', 'q34', 'q35', 'q39', 'q41']
+
 lista_hues = ['age', 'gender', 'continente', 'q4', 'q6', 'q21', 'q22']
+
+lista_sin_col = ['age', 'gender', 'continente', 'q4', 'q6', 'q21', 'q22']
 
 orden_continentes = ['Europa', 'América del Norte', 'América del Sur', 'Asia', 'África', 'Oceanía', 'NS/NC']
 
