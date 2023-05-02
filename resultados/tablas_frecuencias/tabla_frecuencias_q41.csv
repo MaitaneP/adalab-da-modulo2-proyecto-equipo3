@@ -1,7 +1,7 @@
-,q41,age,gender,q3,continente,q4,q6,q8,q21,q22
-0,Advanced statistical software (SPSS-SAS),5.65,5.65,5.65,5.35,5.65,5.65,5.39,5.65,5.65
-1,Basic statistical software (Microsoft Excel-Google Sheets),31.38,31.38,31.38,29.34,31.38,31.38,28.68,31.38,31.38
-2,Business intelligence software (Salesforce-Tableau-Spotfire),12.13,12.13,12.13,11.6,12.13,12.13,11.73,12.13,12.13
-3,Cloud-based data software & APIs (AWS-GCP-Azure),2.17,2.17,2.17,1.96,2.17,2.17,2.13,2.17,2.17
-4,Local development environments (RStudio-JupyterLab),22.95,22.95,22.95,21.47,22.95,22.95,22.51,22.95,22.95
-5,Other,2.56,2.56,2.56,2.43,2.56,2.56,2.43,2.56,2.56
+,q41,age,gender,q3,continente,q4,q6,q21,q22
+0,Advanced statistical software (SPSS-SAS),5.65,5.65,5.65,5.35,5.65,5.65,5.65,5.65
+1,Basic statistical software (Microsoft Excel-Google Sheets),31.38,31.38,31.38,29.34,31.38,31.38,31.38,31.38
+2,Business intelligence software (Salesforce-Tableau-Spotfire),12.13,12.13,12.13,11.6,12.13,12.13,12.13,12.13
+3,Cloud-based data software & APIs (AWS-GCP-Azure),2.17,2.17,2.17,1.96,2.17,2.17,2.17,2.17
+4,Local development environments (RStudio-JupyterLab),22.95,22.95,22.95,21.47,22.95,22.95,22.95,22.95
+5,Other,2.56,2.56,2.56,2.43,2.56,2.56,2.56,2.56
