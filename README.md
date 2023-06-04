@@ -1,5 +1,5 @@
 # adalab-da-modulo2-proyecto-equipo3
-Este repositorio incluye el proyecto del equipo 3 del Módulo 2 de la promo D del bootcamp de Data Analytics de Adalab.
+Este repositorio incluye el proyecto del equipo 3 del Módulo 2 de la promo D del bootcamp de Data Analytics de Adalab. El nombre del equipo es RKG (Restart Kernel Girls)
 
 ***OBJETIVO:***
 Adalab nos ha contratado para analizar la información de la encuesta 2021 Kaggle DS & ML Survey. El objetivo es analizar las respuestas de la encuesta para determinar si el bootcamp de Data Analytics que ofrece se ajusta a las necesidades del mercado para un Data Analyst. Para ello analizaremos qué herramientas/competencias son las que se incluyen en el plan de estudios del bootcamp y cuales son las que según la encuesta son más necesarias para un Data Analyst.
@@ -90,3 +90,6 @@ La documentación se ha organizado en las siguientes carpetas:
 - **src:** Incluye los siguientes archivos:
     * [***soporte_funciones.py***](https://github.com/MaitaneP/adalab-da-modulo2-proyecto-equipo3/blob/main/src/soporte_funciones.py): contiene el .py usado para almacenar funciones.
     * [***soporte_variables.py***](https://github.com/MaitaneP/adalab-da-modulo2-proyecto-equipo3/blob/main/src/soporte_variables.py): contiene el .py usado para almacenar variables.
+
+***PRESENTACIÓN:***
+[Aquí](https://www.canva.com/design/DAFk4VRAtdI/H09lTslnzexXn2DHv2JROw/view?utm_content=DAFk4VRAtdI&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu) está la presentación de canva.
